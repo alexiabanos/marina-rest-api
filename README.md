@@ -10,6 +10,7 @@ Allows for management of a marina dockyard containing users, boats and cargo loa
 * Postman Tests
 * Python (Flask)
 * OAuth 2.0
+* Docker
 * JWT
 
 ## Use Cases / User Stories
