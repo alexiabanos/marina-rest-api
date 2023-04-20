@@ -8,7 +8,7 @@ Allows for management of a marina dockyard containing users, boats and cargo loa
 * Google Cloud App Engine
 * Google NoSQL Cloud Datastore
 * Postman Tests
-* Python (Flask)
+* Node/Express (JavaScript)
 * OAuth 2.0
 * Docker
 * JWT
