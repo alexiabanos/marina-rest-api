@@ -24,32 +24,3 @@ Allows for management of a marina dockyard containing users, boats and cargo loa
 * We will assume cargo loads are an unprotected resource and can be created or deleted at any time.
 * We can ensure that users are the owner of a boat before they can add or remove cargo loads from it.
 * We can ensure that the capacity of the boat is checked before creating new cargo loads, and that new cargo loads are only created if the current number of cargo loads on the boat does not exceed the capacity.
-
-## Environment Requirements:
-- Implemented in javascript
-- Requires NPM for package installation
-- Requires Google Cloud SDK for gcloud app deployment and datastore mgmt
-
-## Installation
-
-Note: As this program utilizes Auth0 as an authentification platform, you will need to provide a client_ID and client_secret for your Auth0 app to utilize this functionality.
-
-* [Setup] - Use npm install - Supplied package.json contains all dependencies needed.
-* [Running locally] - Express server application will run on local host 8080 
-* http://localhost:8080
-
-## Setup
-
-Before you can run or deploy the sample, you need to do the following:
-
-1.  Install dependencies:
-
-    $ npm install
-
-## Running locally
-
-    $ npm start o or $ node server.js
-
-## Deploying to App Engine
-
-    gcloud app deploy
